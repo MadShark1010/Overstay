@@ -1,0 +1,28 @@
+{
+  "name": "overstay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadShark1010/Overstay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadShark1010/Overstay/issues"
+  },
+  "homepage": "https://github.com/MadShark1010/Overstay#readme",
+  "dependencies": {
+    "@envoy/envoy-integrations-sdk": "^1.5.0",
+    "axios": "^0.21.4",
+    "express": "^4.21.2"
+  }
+}
