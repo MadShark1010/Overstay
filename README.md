@@ -4,9 +4,11 @@ Overstay is an Envoy integration that tracks visitor sign-in and sign-out times 
 
 ### Features:
 
-✅ Tracks visitor sign-in and sign-out timestamps
-✅ Validates against a configurable time limit
-✅ Attaches overstay status to the visitor record in Envoy
+✅  Tracks visitor sign-in and sign-out timestamps
+
+✅  Validates against a configurable time limit
+
+✅  Attaches overstay status to the visitor record in Envoy
 
 ### Setup:
 
@@ -24,7 +26,7 @@ ENVOY_CLIENT_ID=<your-envoy-client-id>
 ENVOY_CLIENT_SECRET=<your-envoy-client-secret>
 ```
 
-Replace the last two values with your own from your Envoy Developer App setup.
+Replacing the last two values with your own from your Envoy Developer App setup.
 
 Start the server:
 
@@ -35,4 +37,5 @@ node index.js
 ### Configuration:
 
 Set the timeMinutes value in the Envoy setup
+
 Ensure the webhook endpoints are correctly configured
